@@ -1,0 +1,58 @@
+* {
+    font-family: 'Press Start 2P', cursive;
+    box-sizing: border-box;
+
+}
+.login {
+    background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p1/2174006-praia-paisagem-no-dia-cena-com-arco-iris-no-ceu-gr%C3%A1tis-vetor.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.registration {
+   background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p1/2174006-praia-paisagem-no-dia-cena-com-arco-iris-no-ceu-gr%C3%A1tis-vetor.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.boxCRUD {
+    width:500px;
+    margin:auto;
+    border: 10px solid black;
+    border-radius: 50px;
+    text-align: center;
+    padding: 40px;
+    background-color: rgb(151, 198, 210);
+    height: 500px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-250px;
+    margin-top:-250px;
+}
+.boxCRUD input[type="text"], .boxCRUD input[type="password"] {
+    width:90%;
+    margin: 10px 0px;
+    padding:10px;
+    border:none;
+    border-bottom: 2px solid rgb(151, 198, 210);
+    margin-top:20px;
+    outline: none;
+}
+.boxCRUD input[type="button"] {
+    width:95%;
+    margin: 20px 0px;
+    padding:20px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(44, 186, 221);
+    color: white;
+    border: none;
+    text-shadow: 1px 1px 1px black;
+    outline: none;
+}
+.boxCRUD input[type="button"]:hover {
+    background-color: black;
+    color:white;
+}
+.boxCRUD p {
+    font-size: 15px;
+}

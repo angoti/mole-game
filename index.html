@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Game</title>
+    <link rel="stylesheet" href="CSS/tabuleiro.css">
+    <link rel="stylesheet" href="CSS/jAlertWifi.css">
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <script src="js/jAlertWifi.js"></script>
+    <script src="js/game.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class=" borda quadrado1"><p>Tempo: 00:<span id="chrono">00</span></p></div>
+        <div class="borda quadrado2"><p>Pontuação: <span id="score">0</span></p></div>
+    </header>
+    <main>
+        <audio id="moeda" src="audio/moeda.mp3"></audio>
+        <section>
+            <div id="board">
+
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <label class="nivel" for="level">Nível</label>
+        <select class="level" name="" id="level" onchange="fillBoard()">
+            <option value="easy">Fácil</option>
+            <option value="medium" selected>Médio</option>
+            <option value="hard">Difícil</option>
+        </select>
+        <button class="button play" id="btnPlay">Play</button>
+        <button class="button pause" id="btnPause"  disabled>Pause</button>
+        <button class="button stop" id="btnStop" disabled>Stop</button>
+        <button class="button exit" id="btnExit">Exit</button>
+
+    </footer>
+</body>
+
+</html>

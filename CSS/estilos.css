@@ -1,0 +1,142 @@
+main {
+    /* background-color: rgb(151, 198, 210);*/
+    background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p1/2174006-praia-paisagem-no-dia-cena-com-arco-iris-no-ceu-gr%C3%A1tis-vetor.jpg);
+}
+
+footer {
+    background-color: rgb(151, 198, 210);
+    height: 68px;
+    position: sticky;
+}
+
+footer label {
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+}
+
+.quadrado1 {
+    margin-left: 40px;
+    margin-top: 14px;
+    position: absolute;
+    font-size: 30px;
+}
+
+.quadrado2 {
+    position: absolute;
+    right: 40px;
+    margin-top: 14px;
+    font-size: 30px;
+}
+
+.borda {
+    float: left;
+    margin-top: 8px;
+    padding: 12px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.button {
+    padding: 8px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.level {
+    padding: 10px 10px;
+    background-color: white;
+    font-size: 18px;
+    border: 1px solid black;
+    color: black;
+    border-radius: 0px 10px 10px 0px;
+    height: 39px;
+    cursor: pointer;
+    margin-top: 1px;
+    position: absolute;
+    bottom: 20px;
+    left: 150px;
+    box-shadow: 1px 1px 5px black;
+}
+
+.level:hover {
+    background-color: lightcoral;
+    text-shadow: 1px 1px 1px black;
+    color: white;
+    box-shadow: 1px 1px 5px black;
+}
+
+.button:hover {
+    background-color: lightcoral;
+    text-shadow: 1px 1px 1px black;
+    color: white;
+    box-shadow: 1px 1px 5px black;
+}
+
+footer label {
+    color: black;
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+}
+
+.nivel {
+    background-color: white;
+    width: 120px;
+    text-align: center;
+    height: 39px;
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-left: 5px;
+    font-size: 30px;
+}
+
+.exit {
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+    font-size: 17px;
+    margin-left: 5px;
+}
+
+.stop {
+    position: absolute;
+    bottom: 20px;
+    right: 150px;
+    font-size: 17px;
+    margin-left: 5px;
+}
+
+.pause {
+    position: absolute;
+    bottom: 20px;
+    right: 260px;
+    font-size: 17px;
+    margin-left: 5px;
+}
+
+.play {
+    position: absolute;
+    bottom: 20px;
+    left: 298px;
+    font-size: 17px;
+    margin-left: 5px;
+}
+
+img {
+    width: 100px;
+}
+
+#tab-rank {
+    font-size: 20px;
+    padding-left: 500px;
+}
+
+td, th, table {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
